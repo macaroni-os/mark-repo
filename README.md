@@ -2,7 +2,7 @@
   <img src="https://github.com/macaroni-os/macaroni-site/blob/master/site/static/images/logo.png">
 </p>
 
-# **M**acaroni **A**utomated **R**epositories **K**it Anise Repository
+# **M**.**A**.**R**.**K** Anise Repository
 
 The **M**acaroni **A**utomated **R**epositories **K**it is the Stack
 of all softwares used by Macaroni to maintain and to generate `kits` together
