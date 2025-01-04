@@ -1,0 +1,26 @@
+image: "macaronios/terragon-minimal-devel:latest-amd64"
+env:
+- FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox"
+- GIT_HISTORY_ENTRIES=30000
+- JOBS=10
+prelude:
+- >-
+  anise subsets enable portage devel &&
+  anise install --sync-repos
+  dev-util/pkgs-checker-minimal utils/yq utils/jq system/luet-devkit
+  mark-devkit anise-portage-converter &&
+  anise install system/entities --sync-repos && anise upgrade &&
+  anise cleanup &&
+  mv kits-versions / &&
+  ego sync &&
+  cd /var/git/meta-repo/kits &&
+  chown root:root -R /var/git/meta-repo/kits &&
+  rm -rf * &&
+  mark-devkit kit clone --specfile /kits-versions/kits.yaml
+  --to /var/git/meta-repo/kits --deep $GIT_HISTORY_ENTRIES
+  --concurrency $JOBS
+  --generate-reposcan-files --kit-cache-dir /kit-cache/ &&
+  cp /kits-versions/kits.yaml /kit-cache/ &&
+  mkdir /layer
+
+package_dir: /layer
