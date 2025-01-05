@@ -10,7 +10,7 @@ prelude:
   anise subsets enable portage devel &&
   anise install --sync-repos
   dev-util/pkgs-checker-minimal utils/yq utils/jq system/luet-devkit
-  mark-devkit anise-portage-converter &&
+  mark-devkit anise-portage-converter toolchain/base &&
   anise install system/entities --sync-repos && anise upgrade &&
   anise cleanup &&
   mv kits-versions / &&
