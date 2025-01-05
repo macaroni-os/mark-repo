@@ -1,0 +1,22 @@
+name: lxd-compose
+version: 0.35.2
+category: app-emulation
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: Deploy a complex environment to an LXD Cluster or LXD standalone installation
+uri:
+- https://github.com/MottainaiCI/lxd-compose
+- https://mottainaici.github.io/lxd-compose-docs
+license: GPL-3
+labels:
+  DEPEND: dev-lang/go
+  emerge.packages: app-emulation/lxd-compose
+  kit: mark-kit
+  original.package.name: app-emulation/lxd-compose
+  original.package.slot: "0"
+  original.package.version: 0.35.2
