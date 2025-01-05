@@ -1,0 +1,26 @@
+name: whip-catalog
+version: "0.20240323"
+category: sys-apps
+requires:
+- name: whip
+  version: '>=0'
+  category: app-admin
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: Whip tool catalog
+uri:
+- https://github.com/macaroni-os/whip-catalog
+license: Apache-2.0
+labels:
+  BDEPEND: '>=dev-vcs/git-1.8.2.1[curl]'
+  RDEPEND: app-admin/whip
+  emerge.packages: sys-apps/whip-catalog
+  kit: mark-kit
+  original.package.name: sys-apps/whip-catalog
+  original.package.slot: "0"
+  original.package.version: "0.20240323"
