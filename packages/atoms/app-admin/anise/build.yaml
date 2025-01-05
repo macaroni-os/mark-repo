@@ -1,7 +1,7 @@
 prelude:
 # We need to remove anise installed without portage metadata
 - >-
-  anise -y upx-bin &&
+  anise i -y upx-bin &&
   anise rm system/luet-geaaru-thin -y &&
   eval 'rm -rf /etc/luet /etc/anise || true'
 - |-
