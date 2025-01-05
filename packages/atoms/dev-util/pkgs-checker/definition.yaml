@@ -1,0 +1,21 @@
+name: pkgs-checker
+version: 0.14.4
+category: dev-util
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: Macaroni OS Artefacts Checker
+uri:
+- https://github.com/geaaru/pkgs-checker
+license: GPL-3
+labels:
+  DEPEND: dev-lang/go
+  emerge.packages: dev-util/pkgs-checker
+  kit: mark-kit
+  original.package.name: dev-util/pkgs-checker
+  original.package.slot: "0"
+  original.package.version: 0.14.4
