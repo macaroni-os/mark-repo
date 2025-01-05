@@ -1,0 +1,21 @@
+name: whip
+version: 0.0.3
+category: app-admin
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: Macaroni OS Whip tool
+uri:
+- https://github.com/macaroni-os/whip
+license: GPL-3
+labels:
+  DEPEND: dev-lang/go
+  emerge.packages: app-admin/whip
+  kit: mark-kit
+  original.package.name: app-admin/whip
+  original.package.slot: "0"
+  original.package.version: 0.0.3
