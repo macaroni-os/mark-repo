@@ -6,6 +6,7 @@ env:
 - LUET_YES=true
 - LUET_NOLOCK=true
 prelude:
+# NOTE: ego sync die if /tmp/ directory is not present.
 - >-
   anise subsets enable portage devel &&
   anise install --sync-repos
@@ -18,6 +19,7 @@ prelude:
   anise cleanup &&
   mv kits-versions / &&
   rm -rf /var/git/meta-repo/ &&
+  mkdir -p /tmp/ && chmod a+rw /tmp &&
   sed -e 's|^release.*|release = mark-xl|g' /etc/ego.conf  -i &&
   ego sync &&
   cd /var/git/meta-repo/kits &&
