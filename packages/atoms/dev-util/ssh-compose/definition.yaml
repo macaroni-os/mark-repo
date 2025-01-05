@@ -1,0 +1,21 @@
+name: ssh-compose
+version: 0.6.2
+category: dev-util
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: SSH Compose Orchestrator
+uri:
+- https://github.com/MottainaiCI/ssh-compose
+license: GPL-3
+labels:
+  DEPEND: dev-lang/go
+  emerge.packages: dev-util/ssh-compose
+  kit: mark-kit
+  original.package.name: dev-util/ssh-compose
+  original.package.slot: "0"
+  original.package.version: 0.6.2
