@@ -11,12 +11,13 @@ prelude:
   anise install --sync-repos
   dev-util/pkgs-checker-minimal utils/yq utils/jq system/luet-devkit
   mark-devkit anise-portage-converter toolchain/base
-  toolchain/meta-repo toolchain/meta-geaaru-kit virtual/base
+  toolchain/meta-geaaru-kit virtual/base
   dev-lang/go git
   &&
   anise install system/entities --sync-repos && anise upgrade &&
   anise cleanup &&
   mv kits-versions / &&
+  rm -rf /var/git/meta-repo/ &&
   sed -e 's|^release.*|release = mark-xl|g' /etc/ego.conf  -i &&
   ego sync &&
   cd /var/git/meta-repo/kits &&
