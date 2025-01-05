@@ -1,7 +1,9 @@
 prelude:
 # We need to remove anise installed without portage metadata
 - >-
-  anise rm system/luet-geaaru-thin -y
+  anise -y upx-bin &&
+  anise rm system/luet-geaaru-thin -y &&
+  eval 'rm -rf /etc/luet /etc/anise || true'
 - |-
   export FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox" && \
   export JOBS={{ ( index .Values.labels "jobs" ) | default "3" }} && \
@@ -21,7 +23,8 @@ prelude:
   && export LUET_PORTAGE_PKGMETA=1 && export LUET_PORTAGE_PKGFILES=1 && eval 'rm -rf
   /pkgdir/ || true' && mkdir -p /pkgdir/{{ .Values.name }} && luet-portage --dir /pkgdir/{{
   .Values.name }} {{ ( index .Values.labels "emerge.packages" ) }} && eval 'rm -v
-  /var/cache/distfiles/* ${LUET_PORTAGE_CACHE_PACKAGES}/* || true'
+  /var/cache/distfiles/* ${LUET_PORTAGE_CACHE_PACKAGES}/* || true' &&
+  upx --best --lzma --brute -1 /{{ .Values.name }}/usr/bin/luet
 package_dir: /pkgdir/{{ .Values.name }}
 excludes:
 - ^/var/cache/portage/
