@@ -24,7 +24,7 @@ prelude:
   /pkgdir/ || true' && mkdir -p /pkgdir/{{ .Values.name }} && luet-portage --dir /pkgdir/{{
   .Values.name }} {{ ( index .Values.labels "emerge.packages" ) }} && eval 'rm -v
   /var/cache/distfiles/* ${LUET_PORTAGE_CACHE_PACKAGES}/* || true' &&
-  upx --best --lzma --brute -1 /{{ .Values.name }}/usr/bin/anise
+  upx --best --lzma --brute -1 /pkgdir/{{ .Values.name }}/usr/bin/anise
 package_dir: /pkgdir/{{ .Values.name }}
 excludes:
 - ^/var/cache/portage/
