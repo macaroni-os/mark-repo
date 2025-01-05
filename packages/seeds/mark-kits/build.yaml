@@ -12,7 +12,7 @@ prelude:
   dev-util/pkgs-checker-minimal utils/yq utils/jq system/luet-devkit
   mark-devkit anise-portage-converter toolchain/base
   toolchain/meta-repo toolchain/meta-geaaru-kit virtual/base
-  dev-lang/go
+  dev-lang/go git
   &&
   anise install system/entities --sync-repos && anise upgrade &&
   anise cleanup &&
