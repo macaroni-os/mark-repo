@@ -67,3 +67,7 @@ sources:
       url: https://github.com/macaroni-os/llvm-kit
       branch: mark-xl
       commit_sha1: bc00be309b612412e5d00d9f75f82d3ecfbc1ae2
+    - name: mark-kit
+      url: https://github.com/macaroni-os/mark-kit
+      branch: mark-xl
+      commit_sha1: 61128b055b683c81fa78496a82508f1784ec5ede
