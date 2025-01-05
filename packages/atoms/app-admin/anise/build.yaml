@@ -1,7 +1,7 @@
 prelude:
 # We need to remove anise installed without portage metadata
 - >-
-  anise rm luet
+  anise rm system/luet-geaaru-thin -y
 - |-
   export FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox" && \
   export JOBS={{ ( index .Values.labels "jobs" ) | default "3" }} && \
