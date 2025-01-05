@@ -1,0 +1,21 @@
+name: anise-build
+version: 0.41.1
+category: app-admin
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: Macaroni OS Build Package/Repository tool
+uri:
+- https://github.com/geaaru/luet
+license: GPL-3
+labels:
+  DEPEND: dev-lang/go
+  emerge.packages: app-admin/anise-build
+  kit: mark-kit
+  original.package.name: app-admin/anise-build
+  original.package.slot: "0"
+  original.package.version: 0.41.1
