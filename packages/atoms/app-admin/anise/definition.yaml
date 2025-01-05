@@ -1,0 +1,21 @@
+name: anise
+version: 0.41.1
+category: app-admin
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: Macaroni OS Package Manager System
+uri:
+- https://github.com/geaaru/luet
+license: GPL-3
+labels:
+  DEPEND: dev-lang/go
+  emerge.packages: app-admin/anise
+  kit: mark-kit
+  original.package.name: app-admin/anise
+  original.package.slot: "0"
+  original.package.version: 0.41.1
