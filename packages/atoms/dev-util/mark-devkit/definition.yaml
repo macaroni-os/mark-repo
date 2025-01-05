@@ -1,0 +1,21 @@
+name: mark-devkit
+version: 0.9.0
+category: dev-util
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: Macaroni OS - M.A.R.K. Development Kit
+uri:
+- https://github.com/macaroni-os/mark-devkit
+license: GPL-3
+labels:
+  DEPEND: dev-lang/go
+  emerge.packages: dev-util/mark-devkit
+  kit: mark-kit
+  original.package.name: dev-util/mark-devkit
+  original.package.slot: "0"
+  original.package.version: 0.9.0
