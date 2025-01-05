@@ -17,6 +17,7 @@ prelude:
   anise install system/entities --sync-repos && anise upgrade &&
   anise cleanup &&
   mv kits-versions / &&
+  sed -e 's|^release.*|release = mark-xl|g' /etc/ego.conf  -i &&
   ego sync &&
   cd /var/git/meta-repo/kits &&
   chown root:root -R /var/git/meta-repo/kits &&
