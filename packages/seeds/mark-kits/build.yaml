@@ -22,6 +22,10 @@ prelude:
   mkdir -p /tmp/ && chmod a+rw /tmp &&
   sed -e 's|^release.*|release = mark-xl|g' /etc/ego.conf  -i &&
   ego sync &&
+  ego profile arch x86-64bit &&
+  ego profile build mark &&
+  ego profile subarch generic_64 &&
+  ego profile flavor core &&
   cd /var/git/meta-repo/kits &&
   chown root:root -R /var/git/meta-repo/kits &&
   rm -rf * &&
