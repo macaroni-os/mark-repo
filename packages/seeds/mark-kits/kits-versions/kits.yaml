@@ -70,4 +70,4 @@ sources:
     - name: mark-kit
       url: https://github.com/macaroni-os/mark-kit
       branch: mark-xl
-      commit_sha1: 8bbde9ed2c8d297ea6feb394fbcc1fa325d4ae8c
+      commit_sha1: 69b12e18d426d2ec7b4710ac4d2e42059962c5da
