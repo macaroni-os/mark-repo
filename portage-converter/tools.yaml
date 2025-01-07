@@ -28,6 +28,24 @@ artefacts:
     - app-emulation/lxd-compose
     - sys-apps/whip-catalog
 
+- tree: packages/atoms/
+  replacements:
+    runtime_deps:
+      # Needed until macaroni-os/mark-issues#255 is done
+      ignore:
+        - category: dev-vcs
+          name: git
+  mutations:
+    provides:
+      - category: utils
+        name: yq4
+        version: 4.44.6
+      - category: app-misc
+        name: yq4
+        version: 4.44.6
+  packages:
+    - app-misc/yq-go
+
 include_layers:
 - layers/mark-kits.yaml
 
