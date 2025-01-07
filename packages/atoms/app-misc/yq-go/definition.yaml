@@ -1,0 +1,30 @@
+name: yq-go
+version: 4.44.6
+category: app-misc
+provides:
+- name: yq4
+  version: 4.44.6
+  category: utils
+- name: yq4
+  version: 4.44.6
+  category: app-misc
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: yq is a portable command-line YAML, JSON and XML processor
+uri:
+- https://github.com/mikefarah/yq
+license: Apache-2.0 Boost-1.0 BSD BSD-2 CC0-1.0 ISC LGPL-3+ MIT Apache-2.0 Unlicense
+  ZLIB
+labels:
+  BDEPEND: '>=dev-lang/go-1.16.14 >=dev-lang/go-1.12 app-arch/unzip'
+  RDEPEND: '>=dev-vcs/git-1.7.3'
+  emerge.packages: app-misc/yq-go
+  kit: dev-kit
+  original.package.name: app-misc/yq-go
+  original.package.slot: "0"
+  original.package.version: 4.44.6
