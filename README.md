@@ -29,6 +29,6 @@ When the `kit-cache` directory is ready to update *anise* specs runs:
 
 ```bash
 $> anise-portage-converter generate --rules portage-converter/tools.yaml  --ignore-missing-deps \
-   --to . --enable-stage4 --ignore-wrong-packages
+   --to . --enable-stage4 --ignore-wrong-packages --skip-rdeps-generation
 ```
 
