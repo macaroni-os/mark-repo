@@ -1,0 +1,21 @@
+project_name: Macaroni OS M.A.R.K.
+build:
+  skip: true
+release:
+  header: |
+    ## M.A.R.K. Anise Repository {{ .Tag }}!
+
+changelog:
+  sort: asc
+  groups:
+    - title: Packages
+      regexp: ".*Bump.*"
+      order: 1
+    - title: Others
+      order: 9999
+  filters:
+    exclude:
+      - '^.github'
+      - '^github'
+      - '^portage-converter'
+      - '^Revert.*'
