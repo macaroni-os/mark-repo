@@ -2,118 +2,128 @@ layer:
   name: mark-kits
   category: seed
 packages:
-- app-admin/ego-2.8.8_pre20240817:0
-- app-admin/eselect-1.4.14-r1:0
-- app-arch/bzip2-1.0.8:0
-- app-arch/gzip-1.13:0
-- app-arch/tar-1.35:0
-- app-arch/unzip-6.0_p28:0
-- app-arch/xz-utils-5.6.3:0
-- app-arch/zstd-1.5.6:0
-- app-crypt/gnupg-2.3.7:0
-- app-crypt/gpgme-1.18.0:1
-- app-crypt/libb2-0.98.1-r2:0
-- app-crypt/p11-kit-0.24.1:0
-- app-crypt/pinentry-1.2.1:0
-- app-editors/nano-8.2:0
-- app-eselect/eselect-lib-bin-symlink-0.1.1:0
-- app-eselect/eselect-pinentry-0.7.2:0
-- app-misc/ca-certificates-20240203:0
-- app-misc/editor-wrapper-4:0
-- app-misc/mime-types-9:0
-- app-misc/pax-utils-1.2.4:0
-- app-portage/elt-patches-20170826.1:0
-- app-portage/portage-utils-0.93.3:0
-- app-shells/bash-5.2.37:0
-- dev-db/sqlite-3.47.0:3
-- dev-lang/go-1.23.1:0
-- dev-lang/perl-5.32.0:0
-- dev-lang/python-3.9.20:3.9
-- dev-lang/python-exec-2.4.6-r2:2
-- dev-libs/elfutils-0.187:0
-- dev-libs/expat-2.4.9:0
-- dev-libs/gmp-6.3.0:0
-- dev-libs/icu-69.1:0
-- dev-libs/libassuan-2.5.5:0
-- dev-libs/libbpf-0.3:0
-- dev-libs/libffi-3.3_rc0:0
-- dev-libs/libgcrypt-1.10.1:0
-- dev-libs/libgpg-error-1.46:0
-- dev-libs/libksba-1.6.2:0
-- dev-libs/libltdl-2.4.6:0
-- dev-libs/libpcre-8.44:3
-- dev-libs/libpcre2-10.35:0
-- dev-libs/libtasn1-4.19.0:0
-- dev-libs/libunistring-0.9.10:0
-- dev-libs/libxml2-2.11.5:2
-- dev-libs/nettle-3.7.3:0
-- dev-libs/npth-1.6-r2:0
-- dev-libs/openssl-1.1.1q:0
-- dev-python/libxml2-python-2.11.5:0
-- dev-python/pyelftools-0.31:0
-- dev-python/setuptools-70.3.0:0
-- net-dns/libidn2-2.3.0:0
-- net-firewall/iptables-1.8.11:0
-- net-libs/gnutls-3.7.11:0
-- net-libs/libmnl-1.0.5:0
-- net-libs/libtirpc-1.3.1:0
-- net-libs/nghttp2-1.64.0:0
-- net-misc/curl-8.11.0:0
-- net-misc/wget-1.24.5:0
-- sys-apps/acl-2.2.53:0
-- sys-apps/attr-2.4.48-r3:0
-- sys-apps/coreutils-9.5:0
-- sys-apps/debianutils-4.8.6.1:0
-- sys-apps/diffutils-3.10:0
-- sys-apps/file-5.45:0
-- sys-apps/findutils-4.10.0:0
-- sys-apps/gawk-5.1.0:0
-- sys-apps/gentoo-functions-0.12:0
-- sys-apps/grep-3.11:0
-- sys-apps/groff-1.23.0:0
-- sys-apps/iproute2-6.11.0:0
-- sys-apps/less-668:0
-- sys-apps/portage-3.0.14-r13:0
-- sys-apps/sandbox-2.24:0
-- sys-apps/sed-4.9:0
-- sys-apps/shadow-4.7-r1:0
-- sys-apps/texinfo-7.1.1:0
-- sys-apps/util-linux-2.40.2:0
-- sys-apps/which-2.21:0
-- sys-auth/pambase-20190426:0
-- sys-devel/autoconf-2.72:latest
-- sys-devel/autoconf-2.69-r4:2.69
-- sys-devel/autoconf-wrapper-13-r2:0
-- sys-devel/automake-1.16.5:1.16
-- sys-devel/automake-wrapper-11:0
-- sys-devel/binutils-2.40_p5-r1:2.40
-- sys-devel/gcc-12.3.0:12.3.0
-- sys-devel/gcc-config-2.4:0
-- sys-devel/gettext-0.20.1:0
-- sys-devel/gnuconfig-20180101:0
-- sys-devel/libtool-2.4.6-r5:2
-- sys-devel/m4-1.4.19:0
-- sys-devel/make-4.2.1-r4:0
-- sys-devel/patch-2.7.6-r4:0
-- sys-kernel/linux-headers-6.9:0
-- sys-libs/binutils-libs-2.40_p5-r1:0
-- sys-libs/cracklib-2.9.8:0
-- sys-libs/db-18.1.32:18.1
-- sys-libs/gdbm-1.24:0
-- sys-libs/glibc-2.33-r4:2.2
-- sys-libs/libcap-2.27:0
-- sys-libs/libcap-ng-0.7.9:0
-- sys-libs/ncurses-6.5_p20240511:0
-- sys-libs/pam-1.3.1.20190226:0
-- sys-libs/readline-8.2.13:0
-- sys-libs/zlib-1.3.1:0
-- virtual/acl-0-r2:0
-- virtual/awk-1:0
-- virtual/libc-1:0
-- virtual/libelf-3:0
-- virtual/libiconv-0-r2:0
-- virtual/libintl-0-r2:0
-- virtual/pam-0-r1:0
-- virtual/shadow-0:0
-- virtual/tmpfiles-2:0
-
+  - app-admin/ego-2.8.8_pre20240817:0
+  - app-admin/eselect-1.4.14-r1:0
+  - app-arch/bzip2-1.0.8:0
+  - app-arch/gzip-1.13:0
+  - app-arch/tar-1.35:0
+  - app-arch/unzip-6.0_p28:0
+  - app-arch/xz-utils-5.6.3:0
+  - app-arch/zstd-1.5.6:0
+  - app-crypt/gnupg-2.3.7:0
+  - app-crypt/gpgme-1.18.0:1
+  - app-crypt/libb2-0.98.1-r2:0
+  - app-crypt/p11-kit-0.24.1:0
+  - app-crypt/pinentry-1.2.1:0
+  - app-editors/nano-8.2:0
+  - app-eselect/eselect-lib-bin-symlink-0.1.1:0
+  - app-eselect/eselect-pinentry-0.7.2:0
+  - app-misc/ca-certificates-20240203:0
+  - app-misc/editor-wrapper-4:0
+  - app-misc/mime-types-9:0
+  - app-misc/pax-utils-1.2.4:0
+  - app-portage/elt-patches-20170826.1:0
+  - app-portage/portage-utils-0.93.3:0
+  - app-shells/bash-5.2.37:0
+  - dev-db/sqlite-3.47.0:3
+  - dev-lang/go-1.23.1:0
+  - dev-lang/perl-5.32.0:0
+  - dev-lang/python-3.9.20:3.9
+  - dev-lang/python-exec-2.4.6-r2:2
+  - dev-libs/elfutils-0.187:0
+  - dev-libs/expat-2.4.9:0
+  - dev-libs/gmp-6.3.0:0
+  - dev-libs/icu-69.1:0
+  - dev-libs/libassuan-2.5.5:0
+  - dev-libs/libbpf-0.3:0
+  - dev-libs/libffi-3.3_rc0:0
+  - dev-libs/libgcrypt-1.10.1:0
+  - dev-libs/libgpg-error-1.46:0
+  - dev-libs/libksba-1.6.2:0
+  - dev-libs/libltdl-2.4.6:0
+  - dev-libs/libpcre-8.44:3
+  - dev-libs/libpcre2-10.35:0
+  - dev-libs/libtasn1-4.19.0:0
+  - dev-libs/libunistring-0.9.10:0
+  - dev-libs/libxml2-2.11.5:2
+  - dev-libs/nettle-3.7.3:0
+  - dev-libs/npth-1.6-r2:0
+  - dev-libs/openssl-1.1.1q:0
+  - dev-perl/Authen-SASL-2.160.0-r1:0
+  - dev-perl/Digest-HMAC-1.30.0-r1:0
+  - dev-perl/Error-0.170.250:0
+  - dev-perl/MailTools-2.190.0:0
+  - dev-perl/TimeDate-2.300.0:0
+  - dev-python/libxml2-python-2.11.5:0
+  - dev-python/pyelftools-0.31:0
+  - dev-python/setuptools-70.3.0:0
+  - dev-vcs/git-2.47.0:0
+  - net-dns/libidn2-2.3.0:0
+  - net-firewall/iptables-1.8.11:0
+  - net-libs/gnutls-3.7.11:0
+  - net-libs/libmnl-1.0.5:0
+  - net-libs/libtirpc-1.3.1:0
+  - net-libs/nghttp2-1.64.0:0
+  - net-misc/curl-8.11.0:0
+  - net-misc/wget-1.24.5:0
+  - sys-apps/acl-2.2.53:0
+  - sys-apps/attr-2.4.48-r3:0
+  - sys-apps/coreutils-9.5:0
+  - sys-apps/debianutils-4.8.6.1:0
+  - sys-apps/diffutils-3.10:0
+  - sys-apps/file-5.45:0
+  - sys-apps/findutils-4.10.0:0
+  - sys-apps/gawk-5.1.0:0
+  - sys-apps/gentoo-functions-0.12:0
+  - sys-apps/grep-3.11:0
+  - sys-apps/groff-1.23.0:0
+  - sys-apps/iproute2-6.11.0:0
+  - sys-apps/less-668:0
+  - sys-apps/portage-3.0.14-r13:0
+  - sys-apps/sandbox-2.24:0
+  - sys-apps/sed-4.9:0
+  - sys-apps/shadow-4.7-r1:0
+  - sys-apps/texinfo-7.1.1:0
+  - sys-apps/util-linux-2.40.2:0
+  - sys-apps/which-2.21:0
+  - sys-auth/pambase-20190426:0
+  - sys-devel/autoconf-2.72:latest
+  - sys-devel/autoconf-2.69-r4:2.69
+  - sys-devel/autoconf-wrapper-13-r2:0
+  - sys-devel/automake-1.16.5:1.16
+  - sys-devel/automake-wrapper-11:0
+  - sys-devel/binutils-2.40_p5-r1:2.40
+  - sys-devel/gcc-12.3.0:12.3.0
+  - sys-devel/gcc-config-2.4:0
+  - sys-devel/gettext-0.20.1:0
+  - sys-devel/gnuconfig-20180101:0
+  - sys-devel/libtool-2.4.6-r5:2
+  - sys-devel/m4-1.4.19:0
+  - sys-devel/make-4.2.1-r4:0
+  - sys-devel/patch-2.7.6-r4:0
+  - sys-kernel/linux-headers-6.9:0
+  - sys-libs/binutils-libs-2.40_p5-r1:0
+  - sys-libs/cracklib-2.9.8:0
+  - sys-libs/db-18.1.32:18.1
+  - sys-libs/gdbm-1.24:0
+  - sys-libs/glibc-2.33-r4:2.2
+  - sys-libs/libcap-2.27:0
+  - sys-libs/libcap-ng-0.7.9:0
+  - sys-libs/ncurses-6.5_p20240511:0
+  - sys-libs/pam-1.3.1.20190226:0
+  - sys-libs/readline-8.2.13:0
+  - sys-libs/zlib-1.3.1:0
+  - virtual/acl-0-r2:0
+  - virtual/awk-1:0
+  - virtual/libc-1:0
+  - virtual/libelf-3:0
+  - virtual/libiconv-0-r2:0
+  - virtual/libintl-0-r2:0
+  - virtual/pam-0-r1:0
+  - virtual/perl-Digest-MD5-2.550.100_rc:0
+  - virtual/perl-Digest-SHA-6.20.0-r1:0
+  - virtual/perl-IO-1.430.0:0
+  - virtual/perl-libnet-3.110.0-r4:0
+  - virtual/perl-Scalar-List-Utils-1.550.0:0
+  - virtual/shadow-0:0
+  - virtual/tmpfiles-2:0
