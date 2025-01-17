@@ -1,5 +1,5 @@
 name: yq-go
-version: 4.44.6
+version: 4.45.1
 category: app-misc
 provides:
 - name: yq4
@@ -27,4 +27,4 @@ labels:
   kit: dev-kit
   original.package.name: app-misc/yq-go
   original.package.slot: "0"
-  original.package.version: 4.44.6
+  original.package.version: 4.45.1
