@@ -71,3 +71,8 @@ sources:
       url: https://github.com/macaroni-os/mark-kit
       branch: mark-xl
       commit_sha1: 642916b96e87ab677227e3927c4fd4ab23b27354
+    - name: ruby-kit
+      url: https://github.com/macaroni-os/ruby-kit
+      branch: mark-xl
+      commit_sha1: 0ca7d5aa0404c2b9fcba2a2cc03e4d6a5f3f2d76
+
