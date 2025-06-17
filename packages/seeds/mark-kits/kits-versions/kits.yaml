@@ -2,43 +2,43 @@ sources:
     - name: core-kit
       url: https://github.com/macaroni-os/core-kit
       branch: mark-xl
-      commit_sha1: 69f42c8e522c238e7dc949f8a5fbf2ba871291aa
+      commit_sha1: c0af18d657737fc87cc8bba59541d3f1f41a453f
     - name: mark-kit
       url: https://github.com/macaroni-os/mark-kit
       branch: mark-xl
-      commit_sha1: 7578a70063195889308b893f7b45d372f9f5ad88
+      commit_sha1: ec554508e2da767e418f3d8ac1de7f2fcbf044b0
     - name: core-server-kit
       url: https://github.com/macaroni-os/core-server-kit
       branch: mark-xl
-      commit_sha1: b2c78afa80a552be2870f9c9d37d7c2bf2493038
+      commit_sha1: 9f2bb6b783bd9b78bd94243f65ff3b57ecdf08e9
     - name: core-hw-kit
       url: https://github.com/macaroni-os/core-hw-kit
       branch: mark-xl
-      commit_sha1: f0a76abc5e9ff2b2d1ba36539ed4a28e8fe0acd6
+      commit_sha1: 3813625dff2aa70848d06d237cbb146e200a240c
     - name: dev-kit
       url: https://github.com/macaroni-os/dev-kit
       branch: mark-xl
-      commit_sha1: 658b737b6027408a62efe2cce51960d730e2a3ba
+      commit_sha1: 7f5a69ef98254edcdee675c1bb66c919a196e1bd
     - name: lang-kit
       url: https://github.com/macaroni-os/lang-kit
       branch: mark-xl
-      commit_sha1: b5b72ac7509010193b8378b12923e6a4211ec263
+      commit_sha1: c425ceee8f81f48d9c38f49f3487ac61820f85f4
     - name: editors-kit
       url: https://github.com/macaroni-os/editors-kit
       branch: mark-xl
-      commit_sha1: 1df9b81a1632b5657c77eae4b0066fc4f79ccbb1
+      commit_sha1: e2403303858a5b8598635750ee2e5c25881d8eed
     - name: perl-kit
       url: https://github.com/macaroni-os/perl-kit
       branch: mark-xl
-      commit_sha1: 3b7f86240caaefcc33900a26e84a27ef8fa490d4
+      commit_sha1: 938448498f2c2421f7fa1a6c2c369814a87a7351
     - name: python-kit
       url: https://github.com/macaroni-os/python-kit
       branch: mark-xl
-      commit_sha1: 4f57b7ebb68f16c733cf5ae50e8adb134cfeca69
+      commit_sha1: 1621a677c6819b017801fdb02c7ec4da32fc5de4
     - name: python-modules-kit
       url: https://github.com/macaroni-os/python-modules-kit
       branch: mark-xl
-      commit_sha1: 5c175ee1b127b4930a2df49d62a9916a6c8baf03
+      commit_sha1: d9e4c1030039bffc086db4c024fcda6553fef4d2
     - name: portage-kit
       url: https://github.com/macaroni-os/portage-kit
       branch: mark-xl
@@ -46,15 +46,15 @@ sources:
     - name: net-kit
       url: https://github.com/macaroni-os/net-kit
       branch: mark-xl
-      commit_sha1: f5e5f31f1aa5287d185a074a2804bcb0ca754216
+      commit_sha1: da29277db65b8063d7c3632da7f6d4fe38cf869e
     - name: kernel-kit
       url: https://github.com/macaroni-os/kernel-kit
       branch: mark-xl
-      commit_sha1: 6010b394e6f62c7cbdf4ccd5d568c3a4bff5b3d5
+      commit_sha1: 4e6efa991aa38dd960ccd356d3d02ed398546d00
     - name: security-kit
       url: https://github.com/macaroni-os/security-kit
       branch: mark-xl
-      commit_sha1: 3384027642a97283595f05cb4e669130c8fd1a53
+      commit_sha1: 939803a108085be5b8dbb803e0beb8d33d4d0ba3
     - name: science-kit
       url: https://github.com/macaroni-os/science-kit
       branch: mark-xl
@@ -66,16 +66,16 @@ sources:
     - name: text-kit
       url: https://github.com/macaroni-os/text-kit
       branch: mark-xl
-      commit_sha1: 96780c22bf35579189febbd5dfacf89ea2224d73
+      commit_sha1: 61ff122aef1fbae29cef32b60446e88729d57980
     - name: llvm-kit
       url: https://github.com/macaroni-os/llvm-kit
       branch: mark-xl
-      commit_sha1: 24d75b461caa383e4eef456292deea39f969733c
+      commit_sha1: cd17e94481d5e237fe7c153e3bb8cc9d3d1a6cf6
     - name: ruby-kit
       url: https://github.com/macaroni-os/ruby-kit
       branch: mark-xl
-      commit_sha1: ba8f868503c616aecee9b764e5caa3bc239d2161
+      commit_sha1: 09a72c5648ef9594a55fab63fa175ba5811c22f5
     - name: java-kit
       url: https://github.com/macaroni-os/java-kit
       branch: mark-xl
-      commit_sha1: d4ec1b1a5ce531128b6233dbd366d15e11b1cc76
+      commit_sha1: 2fd3178e39a45d1726fdacbc03c878126070084b
