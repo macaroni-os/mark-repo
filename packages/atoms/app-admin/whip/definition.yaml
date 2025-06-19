@@ -1,6 +1,13 @@
 name: whip
 version: 0.0.3+2
 category: app-admin
+provides:
+- name: macaroni
+  version: "2"
+  category: whip-profiles
+- name: funtoo
+  version: "2"
+  category: whip-profiles
 annotations:
   subsets:
     rules:
