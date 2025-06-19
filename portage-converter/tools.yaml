@@ -16,12 +16,34 @@ global_annotations:
 artefacts:
 
 - tree: packages/atoms/
+  mutations:
+    provides:
+      - category: system
+        name: entitites
+        version: "0.9.2+2"
+  packages:
+    - app-admin/entities
+
+- tree: packages/atoms/
+  mutations:
+    # The whip package from mark-kit
+    # supply already the default config
+    # file for macaroni.
+    provides:
+      - category: whip-profiles
+        name: macaroni
+        version: "2"
+      - category: whip-profiles
+        name: funtoo
+        version: "2"
+  packages:
+    - app-admin/whip
+
+- tree: packages/atoms/
   packages:
     - app-admin/anise
     - app-admin/anise-build
     - app-admin/anise-portage-converter
-    - app-admin/entities
-    - app-admin/whip
     - dev-util/pkgs-checker
     - dev-util/mark-devkit
     - dev-util/ssh-compose
