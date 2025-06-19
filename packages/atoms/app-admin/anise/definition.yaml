@@ -1,6 +1,26 @@
 name: anise
 version: 0.41.1+7
 category: app-admin
+conflicts:
+- name: luet-geaaru
+  version: <0.41.1+7
+  category: system
+- name: luet-geaaru-testing
+  version: <0.41.1+7
+  category: system
+- name: luet-geaaru-thin
+  version: <0.41.1+7
+  category: system
+provides:
+- name: luet-geaaru
+  version: 0.41.1+7
+  category: system
+- name: luet-geaaru-testing
+  version: 0.41.1+7
+  category: system
+- name: luet-geaaru-thin
+  version: 0.41.1+7
+  category: system
 annotations:
   subsets:
     rules:
