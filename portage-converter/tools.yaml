@@ -19,8 +19,12 @@ artefacts:
   mutations:
     provides:
       - category: system
-        name: entitites
+        name: entities
         version: "0.9.2+2"
+    conflicts:
+      - category: system
+        name: entities
+        version: '0.9.2'
   packages:
     - app-admin/entities
 
@@ -36,12 +40,43 @@ artefacts:
       - category: whip-profiles
         name: funtoo
         version: "2"
+    conflicts:
+      - category: whip-profiles
+        name: macaroni
+        version: "<2"
+      - category: whip-profiles
+        name: funtoo
+        version: "<2"
   packages:
     - app-admin/whip
 
 - tree: packages/atoms/
+  mutations:
+    provides:
+      - category: system
+        name: luet-geaaru
+        version: "0.41.1+7"
+      - category: system
+        name: luet-geaaru-testing
+        version: "0.41.1+7"
+      - category: system
+        name: luet-geaaru-thin
+        version: "0.41.1+7"
+    conflicts:
+      - category: system
+        name: luet-geaaru
+        version: '<0.41.1+7'
+      - category: system
+        name: luet-geaaru-testing
+        version: '<0.41.1+7'
+      - category: system
+        name: luet-geaaru-thin
+        version: '<0.41.1+7'
   packages:
     - app-admin/anise
+
+- tree: packages/atoms/
+  packages:
     - app-admin/anise-build
     - app-admin/anise-portage-converter
     - dev-util/pkgs-checker
