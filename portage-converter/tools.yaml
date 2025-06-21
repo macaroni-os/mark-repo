@@ -102,8 +102,16 @@ artefacts:
     - app-admin/anise-portage-converter
 
 - tree: packages/atoms/
+  mutations:
+    provides:
+      - category: system
+        name: luet-build
+        version: "0.41.1+1"
   packages:
     - app-admin/anise-build
+
+- tree: packages/atoms/
+  packages:
     - dev-util/pkgs-checker
     - dev-util/mark-devkit
     - dev-util/ssh-compose

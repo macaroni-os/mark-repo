@@ -1,6 +1,10 @@
 name: anise-build
 version: 0.41.1+1
 category: app-admin
+provides:
+- name: luet-build
+  version: 0.41.1+1
+  category: system
 annotations:
   subsets:
     rules:
@@ -8,7 +12,7 @@ annotations:
       - ^/usr/include/
       portage:
       - ^/var/db/pkg/
-description: Macaroni OS Build Package/Repository tool
+description: Macaroni OS Build Package/Repository Tool
 uri:
 - https://github.com/geaaru/luet
 license: GPL-3
