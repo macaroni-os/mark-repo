@@ -76,6 +76,23 @@ artefacts:
     - app-admin/anise
 
 - tree: packages/atoms/
+  mutations:
+    buildtime_deps:
+      packages:
+        - category: seed
+          name: mark-kits
+    provides:
+      - category: macaroni
+        name: whip-catalog
+        version: "0.20240323+2"
+    conflicts:
+      - category: macaroni
+        name: whip-catalog
+        version: '<0.20240323'
+  packages:
+    - sys-apps/whip-catalog
+
+- tree: packages/atoms/
   packages:
     - app-admin/anise-build
     - app-admin/anise-portage-converter
@@ -83,7 +100,6 @@ artefacts:
     - dev-util/mark-devkit
     - dev-util/ssh-compose
     - app-emulation/lxd-compose
-    - sys-apps/whip-catalog
 
 - tree: packages/atoms/
   replacements:
