@@ -1,6 +1,10 @@
 name: anise-portage-converter
 version: 0.16.3+1
 category: app-admin
+provides:
+- name: anise-portage-converter
+  version: 0.16.3+1
+  category: macaroni
 annotations:
   subsets:
     rules:

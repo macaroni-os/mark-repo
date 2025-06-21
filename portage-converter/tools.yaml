@@ -93,9 +93,17 @@ artefacts:
     - sys-apps/whip-catalog
 
 - tree: packages/atoms/
+  mutations:
+    provides:
+      - category: macaroni
+        name: anise-portage-converter
+        version: "0.16.3+1"
+  packages:
+    - app-admin/anise-portage-converter
+
+- tree: packages/atoms/
   packages:
     - app-admin/anise-build
-    - app-admin/anise-portage-converter
     - dev-util/pkgs-checker
     - dev-util/mark-devkit
     - dev-util/ssh-compose
@@ -118,6 +126,7 @@ artefacts:
         version: 4.44.6
   packages:
     - app-misc/yq-go
+
 
 include_layers:
 - layers/mark-kits.yaml
