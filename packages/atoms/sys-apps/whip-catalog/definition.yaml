@@ -5,6 +5,14 @@ requires:
 - name: whip
   version: '>=0'
   category: app-admin
+conflicts:
+- name: whip-catalog
+  version: <0.20240323
+  category: macaroni
+provides:
+- name: whip-catalog
+  version: 0.20240323+2
+  category: macaroni
 annotations:
   subsets:
     rules:
@@ -12,12 +20,11 @@ annotations:
       - ^/usr/include/
       portage:
       - ^/var/db/pkg/
-description: Whip tool catalog
+description: Whip tool Catalog
 uri:
 - https://github.com/macaroni-os/whip-catalog
-license: Apache-2.0
+license: GPL-3
 labels:
-  BDEPEND: '>=dev-vcs/git-1.8.2.1[curl]'
   RDEPEND: app-admin/whip
   emerge.packages: sys-apps/whip-catalog
   kit: mark-kit
