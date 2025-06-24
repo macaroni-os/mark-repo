@@ -38,7 +38,7 @@ sources:
     - name: python-modules-kit
       url: https://github.com/macaroni-os/python-modules-kit
       branch: mark-xl
-      commit_sha1: d9e4c1030039bffc086db4c024fcda6553fef4d2
+      commit_sha1: 69ac0ea170e3262a581628019d934ee5421e0138
     - name: portage-kit
       url: https://github.com/macaroni-os/portage-kit
       branch: mark-xl
@@ -46,7 +46,7 @@ sources:
     - name: net-kit
       url: https://github.com/macaroni-os/net-kit
       branch: mark-xl
-      commit_sha1: da29277db65b8063d7c3632da7f6d4fe38cf869e
+      commit_sha1: c1b675f4b15a8c7073c6bce9b8c9504e5539a841
     - name: kernel-kit
       url: https://github.com/macaroni-os/kernel-kit
       branch: mark-xl
