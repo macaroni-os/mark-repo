@@ -1,0 +1,33 @@
+name: jq-bin
+version: 1.8.1
+category: app-misc
+conflicts:
+- name: jq
+  version: '>=0'
+  category: app-misc
+- name: jq
+  version: '>=0'
+  category: app-misc
+provides:
+- name: jq
+  version: 1.8.1
+  category: utils
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: A lightweight and flexible command-line JSON processor
+uri:
+- https://stedolan.github.io/jq/
+labels:
+  DEPEND: '!app-misc/jq'
+  IUSE: amd64 arm arm64
+  RDEPEND: '!app-misc/jq'
+  emerge.packages: app-misc/jq-bin
+  kit: dev-kit
+  original.package.name: app-misc/jq-bin
+  original.package.slot: "0"
+  original.package.version: 1.8.1
