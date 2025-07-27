@@ -1,0 +1,24 @@
+name: yq3-bin
+version: 3.4.1
+category: app-misc
+provides:
+- name: yq
+  version: 3.4.1
+  category: utils
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: Portable command-line YAML, JSON, XML, CSV, TOML and properties processor
+uri:
+- https://github.com/mikefarah/yq/
+labels:
+  IUSE: amd64 arm arm64
+  emerge.packages: app-misc/yq3-bin
+  kit: dev-kit
+  original.package.name: app-misc/yq3-bin
+  original.package.slot: "0"
+  original.package.version: 3.4.1
