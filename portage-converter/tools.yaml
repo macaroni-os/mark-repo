@@ -137,6 +137,10 @@ artefacts:
 
 - tree: packages/atoms/
   mutations:
+    buildtime_deps:
+      packages:
+        - category: seed
+          name: mark-kits
     provides:
       - category: utils
         name: yq
@@ -146,6 +150,10 @@ artefacts:
 
 - tree: packages/atoms/
   mutations:
+    buildtime_deps:
+      packages:
+        - category: seed
+          name: mark-kits
     conflicts:
       - category: app-misc
         name: yq-go
@@ -154,6 +162,10 @@ artefacts:
 
 - tree: packages/atoms/
   mutations:
+    buildtime_deps:
+      packages:
+        - category: seed
+          name: mark-kits
     conflicts:
       - category: app-misc
         name: jq

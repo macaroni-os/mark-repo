@@ -23,3 +23,7 @@ package_dir: /pkgdir/{{ .Values.name }}
 excludes:
 - ^/var/cache/portage/
 - ^/var/git/
+requires:
+- name: mark-kits
+  version: '>=0'
+  category: seed
