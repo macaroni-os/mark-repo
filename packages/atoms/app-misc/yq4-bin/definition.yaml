@@ -5,9 +5,10 @@ conflicts:
 - name: yq-go
   version: '>=0'
   category: app-misc
-- name: yq-go
-  version: '>=0'
-  category: app-misc
+provides:
+- name: yq4
+  version: 4.47.1
+  category: utils
 annotations:
   subsets:
     rules:

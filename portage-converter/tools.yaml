@@ -154,9 +154,10 @@ artefacts:
       packages:
         - category: seed
           name: mark-kits
-    conflicts:
-      - category: app-misc
-        name: yq-go
+    provides:
+      - category: utils
+        name: yq4
+        version: 4.47.1
   packages:
     - app-misc/yq4-bin
 
