@@ -135,6 +135,35 @@ artefacts:
   packages:
     - app-misc/yq-go
 
+- tree: packages/atoms/
+  mutations:
+    provides:
+      - category: utils
+        name: yq
+        version: 3.4.1
+  packages:
+    - app-misc/yq3-bin
+
+- tree: packages/atoms/
+  mutations:
+    conflicts:
+      - category: app-misc
+        name: yq-go
+  packages:
+    - app-misc/yq4-bin
+
+- tree: packages/atoms/
+  mutations:
+    conflicts:
+      - category: app-misc
+        name: jq
+    provides:
+      - category: utils
+        name: jq
+        version: 1.8.1
+  packages:
+    - app-misc/jq-bin
+
 
 include_layers:
 - layers/mark-kits.yaml
