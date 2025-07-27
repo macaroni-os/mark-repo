@@ -12,11 +12,11 @@ prelude:
   anise i --sync-repos repository/mottainai-stable &&
   anise install --sync-repos
   dev-util/pkgs-checker utils/yq utils/jq system/luet-devkit
-  mark-devkit anise-portage-converter toolchain/base
+  mark-devkit app-admin/anise-portage-converter toolchain/base
   toolchain/meta-geaaru-kit virtual/base
   dev-lang/go git
   &&
-  anise install system/entities --sync-repos && anise upgrade &&
+  anise install app-admin/entities --sync-repos && anise upgrade &&
   anise cleanup &&
   mv kits-versions / &&
   rm -rf /var/git/meta-repo/ &&
