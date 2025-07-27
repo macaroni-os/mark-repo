@@ -9,7 +9,7 @@ prelude:
 # NOTE: ego sync die if /tmp/ directory is not present.
 - >-
   anise subsets enable portage devel &&
-  anise i repository/mottainai-stable &&
+  anise i --sync-repos repository/mottainai-stable &&
   anise install --sync-repos
   dev-util/pkgs-checker utils/yq utils/jq system/luet-devkit
   mark-devkit anise-portage-converter toolchain/base
