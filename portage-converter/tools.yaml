@@ -114,6 +114,7 @@ artefacts:
   packages:
     - dev-util/pkgs-checker
     - dev-util/mark-devkit
+    - dev-util/anise-repo-devkit
     - dev-util/ssh-compose
     - app-emulation/lxd-compose
 
