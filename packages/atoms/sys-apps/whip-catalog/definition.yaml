@@ -1,5 +1,5 @@
 name: whip-catalog
-version: 0.20240323+2
+version: "0.20250830"
 category: sys-apps
 requires:
 - name: whip
@@ -30,4 +30,4 @@ labels:
   kit: mark-kit
   original.package.name: sys-apps/whip-catalog
   original.package.slot: "0"
-  original.package.version: 0.20240323-r1
+  original.package.version: "0.20250830"
