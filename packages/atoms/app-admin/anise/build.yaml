@@ -2,7 +2,7 @@ prelude:
 # We need to remove anise installed without portage metadata
 - >-
   anise i -y upx-bin &&
-  anise rm system/luet-geaaru-thin -y &&
+  anise rm app-admin/anise -y &&
   eval 'rm -rf /etc/luet /etc/anise || true'
 - |-
   export FEATURES="-sandbox -usersandbox -ipc-sandbox -pid-sandbox -network-sandbox" && \
