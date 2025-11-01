@@ -1,5 +1,5 @@
 name: entities
-version: 0.9.3
+version: 0.9.3+1
 category: app-admin
 conflicts:
 - name: entities
