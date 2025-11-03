@@ -1,5 +1,5 @@
 name: pkgs-checker
-version: 0.16.0+2
+version: 0.16.0+3
 category: dev-util
 annotations:
   subsets:
