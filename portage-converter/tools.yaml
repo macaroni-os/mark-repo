@@ -178,6 +178,9 @@ artefacts:
   packages:
     - app-misc/jq-bin
 
+- tree: packages/atoms/
+  packages:
+    - app-admin/gpu-configurator
 
 include_layers:
 - layers/mark-kits.yaml
