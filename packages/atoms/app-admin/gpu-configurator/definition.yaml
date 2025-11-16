@@ -1,0 +1,29 @@
+name: gpu-configurator
+version: 0.2.8
+category: app-admin
+requires:
+- name: kmod
+  version: '>=0'
+  category: sys-apps
+- name: pciutils
+  version: '>=0'
+  category: sys-apps
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: Macaroni OS GPU Configurator
+uri:
+- https://github.com/macaroni-os/gpu-configurator
+license: GPL-3
+labels:
+  DEPEND: dev-lang/go
+  RDEPEND: sys-apps/kmod sys-apps/pciutils
+  emerge.packages: app-admin/gpu-configurator
+  kit: mark-kit
+  original.package.name: app-admin/gpu-configurator
+  original.package.slot: "0"
+  original.package.version: 0.2.8
