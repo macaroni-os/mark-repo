@@ -92,7 +92,7 @@ repository:
 	mkdir -p $(ROOT_DIR)/repository
 
 repository/macaroni-phoenix:
-	git clone -b phoenix --single-branch https://github.com/macaroni-os/macaroni-phoenix $(ROOT_DIR)/repository/macaroni-phoenix
+	git clone -b phoenix --single-branch https://github.com/macaroni-os/macaroni-funtoo $(ROOT_DIR)/repository/macaroni-phoenix
 
 .PHONY: validate
 validate: repository repository/macaroni-phoenix
