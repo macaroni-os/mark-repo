@@ -94,6 +94,9 @@ repository:
 repository/macaroni-phoenix:
 	git clone -b phoenix --single-branch https://github.com/macaroni-os/macaroni-funtoo $(ROOT_DIR)/repository/macaroni-phoenix
 
+repository/macaroni-commons:
+	git clone -b master --single-branch https://github.com/macaroni-os/macaroni-commons $(ROOT_DIR)/repository/macaroni-commons
+
 .PHONY: validate
-validate: repository repository/macaroni-phoenix
+validate: repository repository/macaroni-phoenix repository/macaroni-commons
 	$(ANISE_BUILD) tree validate --tree $(ROOT_DIR)/repository --tree $(TREE) $(VALIDATE_OPTIONS)
