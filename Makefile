@@ -91,6 +91,9 @@ auto-bump: autobump
 repository:
 	mkdir -p $(ROOT_DIR)/repository
 
+repository/macaroni-phoenix:
+	git clone -b phoenix --single-branch https://github.com/macaroni-os/macaroni-phoenix $(ROOT_DIR)/repository/macaroni-phoenix
+
 .PHONY: validate
-validate: repository
+validate: repository repository/macaroni-phoenix
 	$(ANISE_BUILD) tree validate --tree $(ROOT_DIR)/repository --tree $(TREE) $(VALIDATE_OPTIONS)
