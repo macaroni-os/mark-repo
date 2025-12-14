@@ -6,11 +6,11 @@ sources:
     - name: mark-kit
       url: https://github.com/macaroni-os/mark-kit
       branch: mark-xl
-      commit_sha1: 0b97a303073a1720aee35dab1e3b140a28f831f6
+      commit_sha1: 4d9afc94a21fdf05cd3d2177270cc68347f06fb1
     - name: core-server-kit
       url: https://github.com/macaroni-os/core-server-kit
       branch: mark-xl
-      commit_sha1: 85684f4a16b53faa5d736ff8f3407b3f8cb8128e
+      commit_sha1: ddebfab2a4d5bc22a49a609eb93d89e73276842a
     - name: core-hw-kit
       url: https://github.com/macaroni-os/core-hw-kit
       branch: mark-xl
@@ -18,11 +18,11 @@ sources:
     - name: dev-kit
       url: https://github.com/macaroni-os/dev-kit
       branch: mark-xl
-      commit_sha1: 2f4c8f3726bdf4a4c658e651c8070e21f448585b
+      commit_sha1: 08cc7811560ac833c9868aab3d0f823f271c99c0
     - name: lang-kit
       url: https://github.com/macaroni-os/lang-kit
       branch: mark-xl
-      commit_sha1: 936a9d3f6649e51ce6acb70ec1b1e115ae13e533
+      commit_sha1: a3c0929325296a3233526c4a1b8ea68efdc71289
     - name: editors-kit
       url: https://github.com/macaroni-os/editors-kit
       branch: mark-xl
@@ -38,7 +38,7 @@ sources:
     - name: python-modules-kit
       url: https://github.com/macaroni-os/python-modules-kit
       branch: mark-xl
-      commit_sha1: 0c1d4fea6b1d1b18d25392a68384ffae366b0f10
+      commit_sha1: 77c40d1162c2861120021deb139f681145869aca
     - name: portage-kit
       url: https://github.com/macaroni-os/portage-kit
       branch: mark-xl
@@ -46,11 +46,11 @@ sources:
     - name: net-kit
       url: https://github.com/macaroni-os/net-kit
       branch: mark-xl
-      commit_sha1: fd19a033cd9c952e1f5ad7829e85ef1243397651
+      commit_sha1: 8af255d2f673a521c0b017480a6611b717e4bc14
     - name: kernel-kit
       url: https://github.com/macaroni-os/kernel-kit
       branch: mark-xl
-      commit_sha1: cb53a02dbbfbade7d7fd5d7e720407a3966630dc
+      commit_sha1: 4f25eeade61e24dcf84c8ab534abc4a5cd185fa2
     - name: security-kit
       url: https://github.com/macaroni-os/security-kit
       branch: mark-xl
