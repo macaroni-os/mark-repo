@@ -87,3 +87,15 @@ sources:
       url: https://github.com/macaroni-os/php-kit
       branch: mark-xl
       commit_sha1: 51826c843eae36213615e5a4d1b3b4c737833a48
+    - name: ai-kit
+      url: https://github.com/macaroni-os/ai-kit
+      branch: mark-xl
+      commit_sha1: f2493c662b3e91ca5d857a52941cc8cf0a8a7a36
+    - name: forensics-kit
+      url: https://github.com/macaroni-os/forensics-kit
+      branch: mark-xl
+      commit_sha1: 4b6a5240da6fc6d09830864b67570b326e9c837d
+    - name: python-build-tools-kit
+      url: https://github.com/macaroni-os/python-build-tools-kit
+      branch: mark-xl
+      commit_sha1: c0b3fc0e21d68038af9b532e3e4a8bf9d2dd510a
