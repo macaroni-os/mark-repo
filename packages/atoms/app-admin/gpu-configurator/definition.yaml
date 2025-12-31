@@ -1,5 +1,5 @@
 name: gpu-configurator
-version: 0.2.8
+version: 0.2.8+1
 category: app-admin
 requires:
 - name: kmod
