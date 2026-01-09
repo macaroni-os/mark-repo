@@ -1,5 +1,5 @@
 name: jq-bin
-version: 1.8.1
+version: 1.8.1+1
 category: app-misc
 conflicts:
 - name: jq
