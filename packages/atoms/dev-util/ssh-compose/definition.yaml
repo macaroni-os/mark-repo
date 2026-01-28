@@ -1,5 +1,5 @@
 name: ssh-compose
-version: 0.8.0+4
+version: 0.10.0
 category: dev-util
 annotations:
   subsets:
@@ -13,9 +13,11 @@ uri:
 - https://github.com/MottainaiCI/ssh-compose
 license: GPL-3
 labels:
+  BDEPEND: compress? ( app-arch/upx-bin ) >=dev-lang/go-1.12 app-arch/unzip
   DEPEND: dev-lang/go
+  IUSE: +compress
   emerge.packages: dev-util/ssh-compose
   kit: mark-kit
   original.package.name: dev-util/ssh-compose
   original.package.slot: "0"
-  original.package.version: 0.8.0
+  original.package.version: 0.10.0
