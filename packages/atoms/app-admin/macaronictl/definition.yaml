@@ -1,0 +1,32 @@
+name: macaronictl
+version: 0.10.1
+category: app-admin
+use_flags:
+- compress
+provides:
+- name: ctl
+  version: 0.10.0
+  category: macaroni
+- name: macaronictl-thin
+  version: 0.10.0
+  category: app-admin
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: Macaroni OS Knife
+uri:
+- https://github.com/macaroni-os/macaronictl
+license: GPL-3
+labels:
+  BDEPEND: compress? ( app-arch/upx-bin ) >=dev-lang/go-1.12 app-arch/unzip
+  DEPEND: dev-lang/go
+  IUSE: +compress
+  emerge.packages: app-admin/macaronictl
+  kit: mark-kit
+  original.package.name: app-admin/macaronictl
+  original.package.slot: "0"
+  original.package.version: 0.10.1
