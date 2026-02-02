@@ -111,6 +111,22 @@ artefacts:
     - app-admin/anise-build
 
 - tree: packages/atoms/
+  subsets:
+    rules:
+      desktop:
+        - "^/usr/share/"
+  mutations:
+    provides:
+      - category: macaroni
+        name: ctl
+        version: "0.10.0"
+      - category: app-admin
+        name: macaronictl-thin
+        version: "0.10.0"
+  packages:
+    - app-admin/macaronictl
+
+- tree: packages/atoms/
   packages:
     - dev-util/pkgs-checker
     - dev-util/mark-devkit
