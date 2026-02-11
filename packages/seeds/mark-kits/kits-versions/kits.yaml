@@ -2,15 +2,15 @@ sources:
     - name: core-kit
       url: https://github.com/macaroni-os/core-kit
       branch: mark-xl
-      commit_sha1: a8a82fdfe511621b345dc71ce4ab9369798ac2af
+      commit_sha1: 55bd064def09567f955795a356e46f2e10223d80
     - name: mark-kit
       url: https://github.com/macaroni-os/mark-kit
       branch: mark-xl
-      commit_sha1: a487a357ea035c2ed9408d1d122dda29276fdd28
+      commit_sha1: 857c82261bdbfecd0ad7a0db6d4648850a732404
     - name: core-server-kit
       url: https://github.com/macaroni-os/core-server-kit
       branch: mark-xl
-      commit_sha1: 5e6dfaaa5f9426ec3976b636d04d89b2350c3233
+      commit_sha1: 0edb0ae023600a26154c041195a896044701e02b
     - name: core-hw-kit
       url: https://github.com/macaroni-os/core-hw-kit
       branch: mark-xl
@@ -18,11 +18,11 @@ sources:
     - name: dev-kit
       url: https://github.com/macaroni-os/dev-kit
       branch: mark-xl
-      commit_sha1: b17d9fbe54c426f292d23d241211dafd3c818de8
+      commit_sha1: 7e725c59eb4f1e901552a593fd006d1c38567c93
     - name: lang-kit
       url: https://github.com/macaroni-os/lang-kit
       branch: mark-xl
-      commit_sha1: ec93886b0906487bdafb443d3dabdc86eea2cb43
+      commit_sha1: bb31d34d204391e83e5a9a44d7895ba1c8260cc0
     - name: editors-kit
       url: https://github.com/macaroni-os/editors-kit
       branch: mark-xl
@@ -38,7 +38,7 @@ sources:
     - name: python-modules-kit
       url: https://github.com/macaroni-os/python-modules-kit
       branch: mark-xl
-      commit_sha1: f704e7f09962d12a4b08e03f191ec1f3780bd47e
+      commit_sha1: e3821c3d8ffa8b7e7fceee840e423194154430b1
     - name: portage-kit
       url: https://github.com/macaroni-os/portage-kit
       branch: mark-xl
@@ -46,11 +46,11 @@ sources:
     - name: net-kit
       url: https://github.com/macaroni-os/net-kit
       branch: mark-xl
-      commit_sha1: 7512176798411275af14d045a8d8e915e39e717e
+      commit_sha1: 88f4068418616be7987e6395dc482b48d1f90e51
     - name: kernel-kit
       url: https://github.com/macaroni-os/kernel-kit
       branch: mark-xl
-      commit_sha1: ee91a88d9e783cefcb8393f13640c97418ee30f8
+      commit_sha1: 0a81249e2353c6027e6e2bcdcac044a0cbcd0128
     - name: security-kit
       url: https://github.com/macaroni-os/security-kit
       branch: mark-xl
