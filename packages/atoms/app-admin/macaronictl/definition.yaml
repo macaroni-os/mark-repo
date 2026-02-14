@@ -5,10 +5,10 @@ use_flags:
 - compress
 provides:
 - name: ctl
-  version: 0.10.0
+  version: 0.10.1
   category: macaroni
 - name: macaronictl-thin
-  version: 0.10.0
+  version: 0.10.1
   category: app-admin
 annotations:
   subsets:
