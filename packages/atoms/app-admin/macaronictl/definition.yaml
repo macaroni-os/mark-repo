@@ -10,6 +10,13 @@ provides:
 - name: macaronictl-thin
   version: 0.10.1
   category: app-admin
+conflicts:
+- name: macaronictl-thin
+  category: app-admin
+  version: '<=0.10.0'
+- name: ctl
+  category: macaroni
+  version: '<=0.10.0'
 annotations:
   subsets:
     rules:
