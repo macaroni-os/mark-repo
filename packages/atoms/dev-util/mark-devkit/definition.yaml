@@ -1,5 +1,5 @@
 name: mark-devkit
-version: 0.28.6+1
+version: 0.29.0
 category: dev-util
 annotations:
   subsets:
@@ -13,10 +13,11 @@ uri:
 - https://github.com/macaroni-os/mark-devkit
 license: GPL-3
 labels:
-  BDEPEND: '>=dev-lang/go-1.12 app-arch/unzip'
+  BDEPEND: compress? ( app-arch/upx-bin ) >=dev-lang/go-1.12 app-arch/unzip
   DEPEND: '>=dev-lang/go-1.24.0'
+  IUSE: +compress
   emerge.packages: dev-util/mark-devkit
   kit: mark-kit
   original.package.name: dev-util/mark-devkit
   original.package.slot: "0"
-  original.package.version: 0.28.6
+  original.package.version: 0.29.0
