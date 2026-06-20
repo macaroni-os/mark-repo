@@ -1,5 +1,5 @@
 name: macaronictl
-version: 0.10.2+1
+version: 0.10.2+2
 category: app-admin
 use_flags:
 - compress
