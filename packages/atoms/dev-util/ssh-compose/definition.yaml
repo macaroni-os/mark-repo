@@ -1,5 +1,5 @@
 name: ssh-compose
-version: 0.10.2
+version: 0.10.2+1
 category: dev-util
 annotations:
   subsets:
