@@ -1,5 +1,5 @@
 name: whip
-version: 0.1.0+1
+version: 0.1.0+2
 category: app-admin
 conflicts:
 - name: macaroni
