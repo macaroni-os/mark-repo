@@ -2,15 +2,15 @@ sources:
     - name: core-kit
       url: https://github.com/macaroni-os/core-kit
       branch: mark-xl
-      commit_sha1: 3c97c8d21ed482e7fe9c21b13d285100fb9736a4
+      commit_sha1: 4b70df860d0c3c9037d0ccb5edf2b06fc89da889
     - name: mark-kit
       url: https://github.com/macaroni-os/mark-kit
       branch: mark-xl
-      commit_sha1: 69d066f6962992f44ab9f24e1c7af410c27bb605
+      commit_sha1: 9906b4ff458ea3dd7207b43f8a938290c97036af
     - name: core-server-kit
       url: https://github.com/macaroni-os/core-server-kit
       branch: mark-xl
-      commit_sha1: 3ddbe29fc9f5ad78fb828395d46540a803e88542
+      commit_sha1: 25f27aa233ee82b36ad280cb84a0b303dd2897de
     - name: core-hw-kit
       url: https://github.com/macaroni-os/core-hw-kit
       branch: mark-xl
@@ -18,7 +18,7 @@ sources:
     - name: dev-kit
       url: https://github.com/macaroni-os/dev-kit
       branch: mark-xl
-      commit_sha1: a63e65bc60f84ff095983ae457b8a2ced1cac1bc
+      commit_sha1: e7ea9599d7f549f43dc3bad5232cdb3d11d2cd90
     - name: lang-kit
       url: https://github.com/macaroni-os/lang-kit
       branch: mark-xl
@@ -30,7 +30,7 @@ sources:
     - name: perl-kit
       url: https://github.com/macaroni-os/perl-kit
       branch: mark-xl
-      commit_sha1: 20e12ee36abd2dd9ec4133c005e554f15d35c90a
+      commit_sha1: 90e70e066d281295747f3bb0ca7c6e2e7361bf28
     - name: python-kit
       url: https://github.com/macaroni-os/python-kit
       branch: mark-xl
@@ -54,7 +54,7 @@ sources:
     - name: security-kit
       url: https://github.com/macaroni-os/security-kit
       branch: mark-xl
-      commit_sha1: 6d5eb26a9e0779796e7644ae597a17a41267cc10
+      commit_sha1: a41cadc7e445de12abe7004c024178e0f865f5a5
     - name: science-kit
       url: https://github.com/macaroni-os/science-kit
       branch: mark-xl
@@ -66,7 +66,7 @@ sources:
     - name: text-kit
       url: https://github.com/macaroni-os/text-kit
       branch: mark-xl
-      commit_sha1: 0448348b01061a53e55023fbd5fb4a2f8454517c
+      commit_sha1: 25d4b1bed866c0748a7a583514edff95bdf57248
     - name: llvm-kit
       url: https://github.com/macaroni-os/llvm-kit
       branch: mark-xl
