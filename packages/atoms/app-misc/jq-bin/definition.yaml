@@ -1,5 +1,5 @@
 name: jq-bin
-version: 1.8.1+1
+version: 1.8.2
 category: app-misc
 conflicts:
 - name: jq
@@ -30,4 +30,4 @@ labels:
   kit: dev-kit
   original.package.name: app-misc/jq-bin
   original.package.slot: "0"
-  original.package.version: 1.8.1
+  original.package.version: 1.8.2
