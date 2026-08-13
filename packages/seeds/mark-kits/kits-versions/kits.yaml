@@ -2,15 +2,15 @@ sources:
     - name: core-kit
       url: https://github.com/macaroni-os/core-kit
       branch: mark-xl
-      commit_sha1: c238127c3e08367f8b0e60cc98c544df1eef0b71
+      commit_sha1: 65cec05c8e5e89ebbc3e497326e87b5947c93bf8
     - name: mark-kit
       url: https://github.com/macaroni-os/mark-kit
       branch: mark-xl
-      commit_sha1: 274296c44e1a498abdeb0801450979a8a171cc64
+      commit_sha1: 644f52e2aa0211682491413ecc5b2cdd94a29467
     - name: core-server-kit
       url: https://github.com/macaroni-os/core-server-kit
       branch: mark-xl
-      commit_sha1: 351fd5c335930b6a520ded88d5c5c0b8628a8ede
+      commit_sha1: f851da6d27eab687d69d4448c8ef6da0dcba66e7
     - name: core-hw-kit
       url: https://github.com/macaroni-os/core-hw-kit
       branch: mark-xl
@@ -18,11 +18,11 @@ sources:
     - name: dev-kit
       url: https://github.com/macaroni-os/dev-kit
       branch: mark-xl
-      commit_sha1: b811f3ee629244bd390a17a1368904cb089f15ab
+      commit_sha1: 481d1c4a3155c1df1a6b868b341d21ae21b0b34b
     - name: lang-kit
       url: https://github.com/macaroni-os/lang-kit
       branch: mark-xl
-      commit_sha1: 307369adf9c3157a86219867a19e9d16fbe73e4f
+      commit_sha1: 7a6a317c970bf1dbb77c097a46b32bea9013d763
     - name: editors-kit
       url: https://github.com/macaroni-os/editors-kit
       branch: mark-xl
@@ -38,7 +38,7 @@ sources:
     - name: python-modules-kit
       url: https://github.com/macaroni-os/python-modules-kit
       branch: mark-xl
-      commit_sha1: 0f6dc02539e4e09be40997e8aa06bca4f41b607f
+      commit_sha1: 3dd754bf594bc14f28ee138bb881cd074b254a91
     - name: portage-kit
       url: https://github.com/macaroni-os/portage-kit
       branch: mark-xl
@@ -54,7 +54,7 @@ sources:
     - name: security-kit
       url: https://github.com/macaroni-os/security-kit
       branch: mark-xl
-      commit_sha1: 9b160d88597e837c28bf23c47cfe38d5e4ce80d0
+      commit_sha1: 6993f33cf3a3eeb1577b5064de12762e09d30bfe
     - name: science-kit
       url: https://github.com/macaroni-os/science-kit
       branch: mark-xl
