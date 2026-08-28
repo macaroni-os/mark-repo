@@ -1,5 +1,5 @@
 name: yq4-bin
-version: 4.53.3
+version: 4.53.6
 category: app-misc
 conflicts:
 - name: yq-go
@@ -27,4 +27,4 @@ labels:
   kit: dev-kit
   original.package.name: app-misc/yq4-bin
   original.package.slot: "0"
-  original.package.version: 4.53.3
+  original.package.version: 4.53.6
