@@ -98,6 +98,6 @@ repository/macaroni-commons:
 	git clone -b master --single-branch https://github.com/macaroni-os/macaroni-commons $(ROOT_DIR)/repository/macaroni-commons
 
 .PHONY: validate
-validate: repository repository/macaroni-terragon repository/macaroni-commons
+validate: repository repository/macaroni-terragon repository/macaroni-commons genidx
 	$(SUDO) $(ANISE_BUILD) tree genidx $(GENIDX_ARGS) -t $(ROOT_DIR)/repository/
 	$(ANISE_BUILD) tree validate --tree $(ROOT_DIR)/repository/ --tree $(TREE) $(VALIDATE_OPTIONS)
