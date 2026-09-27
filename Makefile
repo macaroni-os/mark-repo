@@ -3,7 +3,7 @@ CONCURRENCY?=1
 PACKAGES?=
 
 # Abs path only. It gets copied in chroot in pre-seed stages
-ANISE_BUILD?=/usr/bin/luet-build
+ANISE_BUILD?=/usr/bin/anise-build
 export ROOT_DIR:=$(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 DESTINATION?=$(ROOT_DIR)/build
 COMPRESSION?=zstd
@@ -20,7 +20,7 @@ REPO_DESC?=Macaroni OS MARK
 REPO_URL??=https://dl.macaronios.org/repos/mark/
 REPO_VALUES?=
 export REPO_VALUES
-CONFIG?=--config conf/luet.yaml
+CONFIG?=--config conf/anise.yaml
 
 ifneq ($(strip $(REPO_CACHE)),)
   BUILD_ARGS+=--image-repository $(REPO_CACHE)
