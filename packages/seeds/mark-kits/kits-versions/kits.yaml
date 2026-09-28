@@ -6,7 +6,7 @@ sources:
     - name: mark-kit
       url: https://github.com/macaroni-os/mark-kit
       branch: mark-xl
-      commit_sha1: e5936f98d74d854f802a90bd0c5bab20e4e364d3
+      commit_sha1: eb6ad6ba25a2f2af581c827eec769e07142512e4
     - name: core-server-kit
       url: https://github.com/macaroni-os/core-server-kit
       branch: mark-xl
