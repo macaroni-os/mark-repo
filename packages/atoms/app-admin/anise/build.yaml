@@ -26,7 +26,7 @@ prelude:
   /var/cache/distfiles/* ${LUET_PORTAGE_CACHE_PACKAGES}/* || true' &&
   upx --best --lzma --brute -1 /pkgdir/{{ .Values.name }}/usr/bin/anise
 # Remove geaaru-repo-index managed by external package
-- rm -rf /pkgdir/{{ .Values.name }}/etc/anise/repos.conf.d/geaaru-repo-index.yml
+- rm -rf /pkgdir/{{ .Values.name }}/etc/anise/repos.conf.d/ || true
 package_dir: /pkgdir/{{ .Values.name }}
 excludes:
 - ^/var/cache/portage/
