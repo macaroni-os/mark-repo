@@ -3,7 +3,10 @@ version: 0.42.3
 category: app-admin
 provides:
 - name: luet-build
-  version: 0.41.1+1
+  version: 0.42.3
+  category: system
+- name: anise-build
+  version: 0.42.3
   category: system
 annotations:
   subsets:
