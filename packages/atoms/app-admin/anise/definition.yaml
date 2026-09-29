@@ -1,5 +1,5 @@
 name: anise
-version: 0.42.3+1
+version: 0.42.3+2
 category: app-admin
 conflicts:
 - name: luet-geaaru
