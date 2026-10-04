@@ -2,15 +2,15 @@ sources:
     - name: core-kit
       url: https://github.com/macaroni-os/core-kit
       branch: mark-xl
-      commit_sha1: afbcea95e688b40d021f2f959d147fbc2ea8d765
+      commit_sha1: 484e06a8996a2ba7331c043fc028a480d5fc5345
     - name: mark-kit
       url: https://github.com/macaroni-os/mark-kit
       branch: mark-xl
-      commit_sha1: 78ef1e1592c2f110aee8fbfb6ee4a0a39e06f26f
+      commit_sha1: 164b5c3fe060d12137e57a45aed8f8cbc30cef6e
     - name: core-server-kit
       url: https://github.com/macaroni-os/core-server-kit
       branch: mark-xl
-      commit_sha1: 269f95d43921668347f0a0284b092ce25854a3bb
+      commit_sha1: bcd4b4c34321b39713fadddff61ec4353195c576
     - name: core-hw-kit
       url: https://github.com/macaroni-os/core-hw-kit
       branch: mark-xl
@@ -38,7 +38,7 @@ sources:
     - name: python-modules-kit
       url: https://github.com/macaroni-os/python-modules-kit
       branch: mark-xl
-      commit_sha1: 46a32128bbb021746caacdca7f679061a2634ef5
+      commit_sha1: 4b38dd60045e7e0f2af48c45059fa0cb0352066b
     - name: portage-kit
       url: https://github.com/macaroni-os/portage-kit
       branch: mark-xl
@@ -46,11 +46,11 @@ sources:
     - name: net-kit
       url: https://github.com/macaroni-os/net-kit
       branch: mark-xl
-      commit_sha1: 9563cba6f7ef59287211640aee6684f2502a114b
+      commit_sha1: 411988b3fffccf7eb5ba424d5f559b08aebbe319
     - name: kernel-kit
       url: https://github.com/macaroni-os/kernel-kit
       branch: mark-xl
-      commit_sha1: 06bac0afc1adf7bcef103d71a09a407db64570c6
+      commit_sha1: 9551e9e3d25501dc29cab68e4ace223718b8ca81
     - name: security-kit
       url: https://github.com/macaroni-os/security-kit
       branch: mark-xl
@@ -78,7 +78,7 @@ sources:
     - name: java-kit
       url: https://github.com/macaroni-os/java-kit
       branch: mark-xl
-      commit_sha1: 6cf8c291afda3290a57f6a525cafcc29922f2957
+      commit_sha1: aa22de014f285feaead2a217b4c952d8d07f621b
     - name: lisp-scheme-kit
       url: https://github.com/macaroni-os/lisp-scheme-kit
       branch: mark-xl
