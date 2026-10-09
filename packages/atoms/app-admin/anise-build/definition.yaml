@@ -1,12 +1,15 @@
 name: anise-build
-version: 0.43.1
+version: 0.43.2
 category: app-admin
 provides:
 - name: luet-build
-  version: 0.43.1
+  version: 0.43.2
+  category: system
+- name: luet-build-testing
+  version: 0.43.2
   category: system
 - name: anise-build
-  version: 0.43.1
+  version: 0.43.2
   category: system
 annotations:
   subsets:
@@ -25,4 +28,4 @@ labels:
   kit: mark-kit
   original.package.name: app-admin/anise-build
   original.package.slot: "0"
-  original.package.version: 0.43.1
+  original.package.version: 0.43.2
