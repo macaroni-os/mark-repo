@@ -1,5 +1,5 @@
 name: anise
-version: 0.43.1
+version: 0.43.2
 category: app-admin
 conflicts:
 - name: luet-geaaru
@@ -13,16 +13,16 @@ conflicts:
   category: system
 provides:
 - name: luet-geaaru
-  version: 0.43.1
+  version: 0.43.2
   category: system
 - name: luet-geaaru-testing
-  version: 0.43.1
+  version: 0.43.2
   category: system
 - name: luet-geaaru-thin
-  version: 0.43.1
+  version: 0.43.2
   category: system
 - name: anise
-  version: 0.43.1
+  version: 0.43.2
   category: system
 annotations:
   subsets:
@@ -41,4 +41,4 @@ labels:
   kit: mark-kit
   original.package.name: app-admin/anise
   original.package.slot: "0"
-  original.package.version: 0.43.1
+  original.package.version: 0.43.2
