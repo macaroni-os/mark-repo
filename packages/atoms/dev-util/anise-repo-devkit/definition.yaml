@@ -1,5 +1,5 @@
 name: anise-repo-devkit
-version: 0.2.0
+version: 0.2.0+1
 category: dev-util
 annotations:
   subsets:
