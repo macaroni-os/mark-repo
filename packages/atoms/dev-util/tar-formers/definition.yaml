@@ -1,0 +1,25 @@
+name: tar-formers
+version: 0.10.7
+category: dev-util
+use_flags:
+- compress
+annotations:
+  subsets:
+    rules:
+      devel:
+      - ^/usr/include/
+      portage:
+      - ^/var/db/pkg/
+description: A library and tool to modify tar flows at runtime
+uri:
+- https://github.com/geaaru/tar-formers
+license: GPL-3
+labels:
+  BDEPEND: compress? ( app-arch/upx-bin ) >=dev-lang/go-1.12 app-arch/unzip
+  DEPEND: dev-lang/go
+  IUSE: +compress
+  emerge.packages: dev-util/tar-formers
+  kit: mark-kit
+  original.package.name: dev-util/tar-formers
+  original.package.slot: "0"
+  original.package.version: 0.10.7
