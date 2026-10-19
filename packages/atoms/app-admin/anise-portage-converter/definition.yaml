@@ -1,5 +1,5 @@
 name: anise-portage-converter
-version: 0.17.0
+version: 0.17.0+1
 category: app-admin
 provides:
 - name: anise-portage-converter
