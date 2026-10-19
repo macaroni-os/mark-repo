@@ -197,6 +197,7 @@ artefacts:
 - tree: packages/atoms/
   packages:
     - app-admin/gpu-configurator
+    - dev-util/tar-formers
 
 include_layers:
 - layers/mark-kits.yaml
