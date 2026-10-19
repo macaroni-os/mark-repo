@@ -1,5 +1,5 @@
 name: anise-repo-devkit
-version: 0.1.1+7
+version: 0.2.0
 category: dev-util
 annotations:
   subsets:
@@ -13,10 +13,11 @@ uri:
 - https://github.com/macaroni-os/anise-repo-devkit
 license: GPL-3
 labels:
-  BDEPEND: '>=dev-lang/go-1.12 app-arch/unzip'
+  BDEPEND: compress? ( app-arch/upx-bin ) >=dev-lang/go-1.12 app-arch/unzip
   DEPEND: '>=dev-lang/go-1.24.0'
+  IUSE: +compress
   emerge.packages: dev-util/anise-repo-devkit
   kit: mark-kit
   original.package.name: dev-util/anise-repo-devkit
   original.package.slot: "0"
-  original.package.version: 0.1.1-r1
+  original.package.version: 0.2.0
