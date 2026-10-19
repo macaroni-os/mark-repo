@@ -21,8 +21,7 @@ prelude:
   && export LUET_PORTAGE_PKGMETA=1 && export LUET_PORTAGE_PKGFILES=1 && eval 'rm -rf
   /pkgdir/ || true' && mkdir -p /pkgdir/{{ .Values.name }} && luet-portage --dir /pkgdir/{{
   .Values.name }} {{ ( index .Values.labels "emerge.packages" ) }} && eval 'rm -v
-  /var/cache/distfiles/* ${LUET_PORTAGE_CACHE_PACKAGES}/* || true' &&
-  upx --best --lzma --brute -1 /pkgdir/{{ .Values.name }}/usr/bin/tar-formers
+  /var/cache/distfiles/* ${LUET_PORTAGE_CACHE_PACKAGES}/* || true'
 package_dir: /pkgdir/{{ .Values.name }}
 excludes:
 - ^/var/cache/portage/
