@@ -1,5 +1,5 @@
 name: mark-devkit
-version: 0.35.4
+version: 0.35.4+1
 category: dev-util
 annotations:
   subsets:
