@@ -1,5 +1,5 @@
 name: whip-catalog
-version: "0.20260529"
+version: 0.20260529+1
 category: sys-apps
 requires:
 - name: whip
