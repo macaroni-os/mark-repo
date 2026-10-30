@@ -1,5 +1,5 @@
 name: yq3-bin
-version: 3.4.1
+version: 3.4.1+1
 category: app-misc
 provides:
 - name: yq
