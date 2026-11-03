@@ -12,7 +12,7 @@ prelude:
   anise i -y --sync-repos repository/mottainai-stable &&
   anise install -y --sync-repos --force
   dev-util/pkgs-checker utils/yq utils/jq system/luet-devkit
-  mark-devkit anise-portage-converter toolchain/base
+  mark-devkit app-admin/anise-portage-converter toolchain/base
   toolchain/meta-geaaru-kit virtual/base
   dev-lang/go git
   &&
