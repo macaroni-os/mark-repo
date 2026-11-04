@@ -1,7 +1,7 @@
 #!/bin/bash
 # Description: Script to create commit of new packages
 #              divided by package. This will help on revert.
-# Author: Daniele Rondina <geaaru@funtoo.org>
+# Author: Daniele Rondina <geaaru@macaronios.org>
 
 BUMPER_DIR="${BUMPER_DIR:-}"
 DESCR_POSTFIX="${DESCR_POSTFIX:-}"
